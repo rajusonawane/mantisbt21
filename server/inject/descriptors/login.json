@@ -1,5 +1,23 @@
 {
   "type": "object",
-  "properties": {},
-  "connect": []
+  "properties": {
+    "userid": {
+      "type": "string",
+      "control": "property.innerText"
+    },
+    "password": {
+      "type": "string",
+      "selector": "[name=\"login_form\"]",
+      "control": "property.innerText"
+    }
+  },
+  "connect": [
+    {
+      "match": [],
+      "screens": [
+        "logincool"
+      ],
+      "model": "login"
+    }
+  ]
 }
