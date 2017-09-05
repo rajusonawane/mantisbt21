@@ -3,7 +3,8 @@
   "properties": {
     "userid": {
       "type": "string",
-      "control": "property.innerText"
+      "control": "property.innerText",
+      "selector": "body"
     },
     "password": {
       "type": "string",
